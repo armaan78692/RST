@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .header img{
     width: 70%;
     height: auto;
@@ -15,7 +18,8 @@
 .date a{
     width: 450px;
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: white;
     background-color: rgb(238, 113, 67);
@@ -28,20 +32,31 @@
 }
 
 .invitation{
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     padding: 50px;
 }
 
 .invitation span{
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 700;
 }
 
-.visit-website a{
+.invitation img{
+    width: 15vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .visit-website a{
     width: 650px;
     text-align: center;
     color: aliceblue;
     background-color: rgb(238, 113, 67);
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     padding: 6px;
     text-decoration: none;
@@ -49,25 +64,33 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.visit-link{
+/* .visit-link{
 
     width: 30px;
     height: auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 .www{
     width: 70px;
-}
+} */
 
-.visit-website a:hover{
+/* .visit-website a:hover{
     background-color: orangered;
-}
+} */
 
 .contact-details{
     font-size: 25px;
-   text-align: center;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: -5vh;
+}
+
+.contact-details img{
+    width: 3vw;
+    
 }
 
 .contact-details a{
@@ -81,7 +104,13 @@
 
 .txt{
     font-size: 25px;
+    font-family: "Montserrat", sans-serif;
     padding: 50px;
+}
+
+.txt .disclaimer{
+    text-align: center;
+    padding-top: 10vh;
 }
 
 .disclaimer .terms{
@@ -112,12 +141,14 @@
 
 .copyright{
     font-size: 15px;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     text-decoration: underline;
 }
 
 .lastfooter{
     font-size: 15px;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
 }
 
@@ -181,11 +212,11 @@
     }
 
     .copyright{
-        font-size: 2.2vh;
+        font-size: 2.2vw;
     }
 
     .lastfooter{
-        font-size: 2vh;
+        font-size: 2vw;
     }
 
     .footer-social-icons img{
