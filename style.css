@@ -1,0 +1,201 @@
+.header img{
+    width: 70%;
+    height: auto;
+    padding:0;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    margin-top:auto;
+}
+
+.date a{
+    width: 450px;
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(238, 113, 67);
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invitation{
+    font-size: 25px;
+    padding: 50px;
+}
+
+.invitation span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.visit-website a{
+    width: 650px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(238, 113, 67);
+    font-size: 30px;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visit-link{
+
+    width: 30px;
+    height: auto;
+}
+
+.www{
+    width: 70px;
+}
+
+.visit-website a:hover{
+    background-color: orangered;
+}
+
+.contact-details{
+    font-size: 25px;
+   text-align: center;
+}
+
+.contact-details a{
+    text-decoration: none;
+    color: rgb(238, 113, 67);
+}
+
+.contact-details a:hover{
+    color: #e74224;
+}
+
+.txt{
+    font-size: 25px;
+    padding: 50px;
+}
+
+.disclaimer .terms{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 1rem;
+}
+
+.footer-social-icons img{
+    width: 30px;
+    height: auto;
+    display: inline-block;
+    padding: 8px 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.footer-social-icons img:hover{
+    background-color: #e74224;
+}
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lastfooter{
+    font-size: 15px;
+    text-align: center;
+}
+
+@media(width < 768px){
+    .date a{
+    width: 60%;
+    font-size: 3.9vw;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    background-color: rgb(238, 113, 67);
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .invitation{
+        font-size: 3vw;
+        padding: 25px;
+    }
+
+    .invitation span{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .visit-website a{
+        width: 70%;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(238, 113, 67);
+        font-size: 3.5vw;
+        padding: 6px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .www{
+        width: 8vw;
+    }
+
+    .contact-details{
+        font-size: 3vw;
+       text-align: center;
+    }
+
+    .txt{
+        font-size: 2.7vw;
+        padding: 30px;
+    }
+    
+    .disclaimer .terms{
+        text-decoration: underline;
+        font-size: 3.2vw;
+    }
+
+    .copyright{
+        font-size: 2.2vh;
+    }
+
+    .lastfooter{
+        font-size: 2vh;
+    }
+
+    .footer-social-icons img{
+    width: 3.5vh;
+    height: auto;
+    display: inline-block;
+    padding: auto;
+    display: inline-block;
+    border-radius: 50%;
+    }
+    
+}
+
